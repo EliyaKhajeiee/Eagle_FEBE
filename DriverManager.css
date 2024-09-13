@@ -1,0 +1,66 @@
+/* Styles for Driver Manager Wrapper */
+.driver-manager-wrapper {
+    display: flex; /* Flex container for side-by-side layout */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height if needed */
+    box-sizing: border-box; /* Include padding/border in width/height */
+  }
+  
+  /* Styles for Invoice List Container */
+  .invoice-list-container {
+    background: white;
+    width: 50%; /* 50% of the screen width */
+    padding: 16px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    border-right: 1px solid #ddd; /* Optional: border between the two sections */
+  }
+  
+  /* Styles for Driver Profile Container */
+  .driver-profile-container {
+    background: white;
+    width: 50%; /* 50% of the screen width */
+    padding: 16px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  /* Styles for Invoice List */
+  .invoice-list {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Wrap items to the next line if needed */
+    gap: 8px; /* Space between items */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Styles for Invoice Items */
+  .invoice-item {
+    background: #f4f4f4; /* Background color for items */
+    border: 1px solid #ddd; /* Border for definition */
+    border-radius: 6px; /* Rounded corners */
+    padding: 12px; /* Padding inside each item */
+    cursor: move; /* Cursor to indicate draggable */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold text for emphasis */
+    text-align: center; /* Center text inside items */
+    width: 80px; /* Fixed width */
+    height: 60px; /* Fixed height */
+    display: flex; /* Flexbox for centering content */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    flex-shrink: 0; /* Prevent shrinking of items */
+  }
+  
+  /* Styles for Driver Invoice List */
+  .driver-invoice-list {
+    display: flex; /* Use flexbox for horizontal layout */
+    flex-wrap: wrap; /* Wrap items to the next line if needed */
+    gap: 8px; /* Space between items */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  
